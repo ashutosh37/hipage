@@ -1,0 +1,42 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+
+
+<ion-view view-title="Landing" hide-nav-bar="true" hide-back-button="true">
+    <ion-header-bar align-title="left" class="bar-positive">
+            <div class="col">Your One Stop Shop</div>
+
+    </ion-header-bar>
+    <ion-content>
+
+        <div class="row">
+            <div class="col" ng-click="http://www.google.com">Get Quote</div>
+            <div class="col">Manage Jobs</div>
+        </div>
+        <div class="row">
+            <div class="col">Directory</div>
+            <div class="col">Sign In</div>
+        </div>
+
+        <div class="row">
+            <div class="col">Advertisement</div>
+        </div>
+
+        <style>
+            .scroll-content{
+                top:40px;
+            }
+
+
+        </style>
+    </ion-content>
+
+    <ion-footer-bar align-title="left" class="bar-assertive">
+        <div class="row">
+            <div class="col">Are You a Tradie? List your Business.</div>
+        </div>
+        </ion-footer-bar>
+</ion-view>
