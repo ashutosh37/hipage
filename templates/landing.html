@@ -13,24 +13,47 @@ navigation history that also transitions its views in and out.
     <ion-content>
 
         <div class="row">
-            <div class="col" ng-click="http://www.google.com">Get Quote</div>
-            <div class="col">Manage Jobs</div>
+            <div class="col"><button class="button button-outline button-positive">
+                Get Quote
+            </button></div>
+            <div class="col"><button class="button button-outline button-positive">
+                Manage Jobs
+            </button></div>
         </div>
         <div class="row">
-            <div class="col">Directory</div>
-            <div class="col">Sign In</div>
+            <div class="col"><button class="button button-outline button-positive">
+                Directory
+            </button></div>
+            <div class="col"><button class="button button-outline button-positive">
+                Signup
+            </button></div>
         </div>
+        <hr>
+        <div class="row">
+            <div class="col">
 
-        <div class="row">
-            <div class="col">Advertisement</div>
+                <div class="card advertisments">
+
+                    <a class="item item-thumbnail-left" href="#">
+                        <img src="cover.jpg">
+                        <h2>Pretty Hate Machine</h2>
+                        <p>Nine Inch Nails</p>
+                    </a>
+                </div>
+            </div>
         </div>
 
         <style>
             .scroll-content{
                 top:40px;
             }
-
-
+.advertisments{
+    margin-top:0px;
+}
+.button{
+    width: 145px;
+    height: 110px;
+}
         </style>
     </ion-content>
 
